@@ -1,0 +1,53 @@
+
+.page_header{
+		width:100%;
+		float: left;
+		height:5em;
+		background-image:url(../images/nav_img.jpg);
+#text_logo{
+		float:left;
+		font-size:1.7em;
+		color:#222222;
+		padding:2.5%;
+				 
+}
+	img{
+display:none;
+}
+
+
+
+.nav_drop{
+display:none;
+}
+
+.navigation{
+float:left;
+
+ul{
+
+li{
+display:inline;
+
+a{
+text-decoration:none;
+color:#4368B8;
+font-weight:500;
+border:$border lightblue;
+border-radius:0.3em;
+}
+
+a:hover{
+color:white;
+font-weight:600;
+background-color:black;
+}
+
+a.current{
+background-color:black;
+color:brown;
+}
+}
+}
+}		
+}

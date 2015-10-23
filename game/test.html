@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+/*JS animation
+#parent{
+background-color:green;
+position:relative;
+width:400px;
+height:40px;
+overflow:hidden;
+}
+
+#child{
+background-color:blue;
+position:absolute;
+width:20px;
+height:40px;
+left:0px;
+
+}
+-->
+
+
+
+
+
+<style>
+@font-face {
+    font-family: myFirstFont;
+    src: url('fonts/LimeGloryCaps.ttf');
+}
+
+div {
+    font-family: myFirstFont;
+}
+
+
+*{
+margin:0px;
+padding:0px;
+ box-sizing: border-box;
+}
+#container{
+border:3px solid black;
+width:75%;
+margin:0 auto;
+height:300px;
+background-image:url('images/bgimage.jpg');
+}
+
+#parent{
+border:solid 2px;
+display:inline-block;
+position:relative;
+width:100%;
+height:100%;
+}
+
+
+</style>
+
+
+</head>
+<body onclick="shide(this)">
+<script>
+function shide(id){
+	var presentWidth=id.offsetWidth;
+	var me=id.getAttribute("id");
+	
+	alert(me+" "+presentWidth);
+}
+</script>
+<div id="container" onclick="shide(this)">
+
+<div id="parent" onclick="shide(this)">
+Save a lot of work with CSS!
+
+
+Save a lot of work with CSS!
+Save a lot of work with CSS!
+Save a lot of work with CSS!
+Save a lot of work with CSS!
+Save a lot of work with CSS!
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div id="parent">
+<div id="child" onclick="move(this)">
+</div>
+</div>
+
+
+
+
+
+<script>
+function move(elem) {
+var left=parseInt(elem.offsetLeft);
+
+function frame(){
+	left++ ; // update parameters 
+    elem.style.left = left + 'px'; // show frame 
+if (left == 100){
+      clearInterval(id);
+}
+else{
+left-- ; // update parameters 
+alert(left);
+elem.style.left = left + 'px'; // show frame 
+if(left==200){
+clearInterval(id);
+}
+
+
+}
+
+
+
+}
+
+var id = setInterval(frame, 10) 
+
+
+
+}
+</script>
+-->
+</body>
+</html>

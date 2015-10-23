@@ -1,0 +1,191 @@
+@media only screen and (max-width: 600px) {
+	
+* {
+    box-sizing: border-box;
+}
+body{
+background-color:red;
+margin:0em;
+padding:0em;
+font-family: Arial;
+height: auto;
+font-size:100%;
+
+}
+
+aside,section,header,nav,footer{
+	display:block;
+	
+}
+
+img{
+	max-width:100%;
+	
+}
+
+#container{
+background-color: #ffffff;
+clear: both;
+margin:0 auto;
+padding-top: 0.2em;
+width: 70%;
+	}
+	
+.page_header{
+		background-image:url(../images/logo_bg.png);
+		background-repeat:repeat-x;
+		float: left;
+		width:100%;
+
+		
+	}
+	
+	 #text_logo{
+		 padding-top:1.2em;
+		 padding-left:0.5em;
+		 font-size:1.7em;
+		 float:left;
+		 color:white;
+		 
+		 
+	 }
+@media only screen and (max-width: 500px) {
+  body{
+	  background-color:green;
+	  
+  }
+  .navigation{
+	float:left;
+	clear:both;
+	margin-left:16em;
+		
+}  
+}
+
+
+
+.navigation{
+	float:left;
+	clear:both;
+margin-left:16em;
+		
+}
+	 
+.navigation ul li a{
+	color:#4368B8;
+	font-weight:500;
+padding:.6em;
+}
+
+.navigation ul li a:hover{
+color:white;
+	font-weight:600;
+	background-color:black;
+	
+	
+}
+.current{
+
+color:white;
+font-weight:600;
+padding:0.6em;
+background-color:black;
+}
+
+#container .page_header ul li{
+display:inline;
+}
+ 
+#container .page_header ul li a{
+text-decoration:none;
+}
+
+
+.img_slider{
+	margin:0em;
+	padding:0em;
+		
+}
+
+ #main_section a{
+text-decoration:none;
+color:white;
+
+}
+
+.main_article header h2{
+margin-left:0.7em;
+color:#006699;
+}
+
+.main_article #welcome_content_img{
+	margin-left:0.3em;
+	float:left;
+}
+
+.main_article #main_content_1{
+	float:left;
+ text-align: justify;
+
+   	}
+	
+.main_article #main_content_2,#main_content_3{
+	 text-align: justify;
+	
+	
+ }
+	
+.main_article {
+
+ text-align: justify;
+  
+ }
+#main_section{
+float:left;
+background-color:white;
+width:75%;
+padding:0.1em; 
+}
+
+.content_right {
+    background-color: #369;
+    padding-bottom: 0.2em;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    width: 100%;
+	color:white;
+	
+}
+
+
+.side_nav{
+	background-color:#2991B6;
+	 padding-left:0.2em; 
+	position:relative;
+	 width:25%;
+	 height:auto;
+	 float:left;
+	
+
+}
+
+
+h2{
+	font-size:2em;
+}
+
+
+footer{
+	clear:both;
+	background-color:black;
+	padding:0.5em;
+	color:white;
+	text-align:center;
+}
+	
+	
+	
+	 
+	 	
+	
+}

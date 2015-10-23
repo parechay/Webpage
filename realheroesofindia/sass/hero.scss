@@ -1,0 +1,55 @@
+$font_fam:arial 'sans serief';
+$border:solid .4em;
+*{
+box-sizing: border-box;
+margin:0px;
+padding:0px;
+}
+
+p{
+text-align:justify;
+margin:.5em;
+}
+
+
+@media only screen and (max-width:600px){
+
+body{
+font-size:100%;
+font-family:$font_fam;
+}
+
+header,nav{
+display:block;
+}
+
+@import 'nav';
+
+.main_section{
+clear:both;
+padding:.9em;
+border:$border;
+color:#b78979;
+width:90%;
+margin:0 auto;
+
+img{
+float:left;
+width:7em;
+height:7em;
+border-radius:80em;
+margin-right:.3em;
+}
+
+
+
+
+}
+
+@import 'footer';
+
+
+}
+
+
+

@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  font-size: 18px;
+  padding: 0px; }
+
+body {
+  background-color: #A0A2A4; }
+
+#container {
+  width: 75%;
+  margin: 0 auto; }
+
+header, nav, section {
+  display: block; }
+
+/*
+nav{
+color:$color;
+ul{
+
+
+li{
+display:inline;
+
+a{
+text-decoration:none;
+margin:12px;
+
+}
+}
+
+}
+
+
+}
+
+*/
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline; }
+nav a {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: inline;
+  border: solid 3px green; }
+nav a:hover {
+  color: green;
+  padding: pad_a; }
+
+/*# sourceMappingURL=style.css.map */

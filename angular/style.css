@@ -1,0 +1,26 @@
+.{
+	margin:0px;
+	padding:0px;
+	
+}
+section,nav{
+	display:block;
+	
+}
+.dmodule{
+	border:solid 2px;
+	float:left;
+	width:100%;
+	height:200px;
+
+}
+
+.dmodule ul{
+	list-style-type:none;
+	
+}
+
+.dmodule li{
+	display:inline;
+	
+}

@@ -1,0 +1,110 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/LimeGloryCaps.ttf');
+}
+
+
+
+.noMgPdg{
+margin:0em;
+padding:0em;
+}
+
+.pickPaper{
+height:33%;
+width:30%;
+text-align:center;
+padding-top:4.5em;
+float:left;
+position:absolute;
+left:35.3%;
+border:solid 0.1em;
+top:33.5%;
+}
+
+
+
+.hidden{
+font-family:myFirstFont;
+font-size:2em;
+color:#ffffff;
+font-style:italic;
+
+opacity: 0.9;
+
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+@extend .noMgPdg;
+font-size:100%;
+
+#container{
+width:75%;
+margin:0 auto;
+height:630px;
+background:url(../images/bgimage.jpg);
+border:solid 0.2em;
+position:relative;
+#pick{
+border:solid 0.1em;
+height:100%;
+width:100%;
+position:absolute;
+margin:0 auto;
+border-radius:999em;
+
+#player1{
+@extend .pickPaper;
+background-color:#ECB003;
+top:0.5%;
+span{
+color:#ffffff;
+opacity: 0.9;
+
+}
+} 
+
+#player2{
+@extend .pickPaper;
+background-color:#E4007D;
+left:5.3%;
+
+} 
+
+#player3{
+@extend .pickPaper;
+background-color:#ffffff;
+span{
+color:#000000;
+}
+
+} 
+
+#player4{
+@extend .pickPaper;
+background-color:#C2191C;
+left:65.3%;
+
+} 
+
+#player5{
+@extend .pickPaper;
+background-color:#EF9444;
+top:66.5%;
+} 
+
+
+}
+
+
+}
+
+}
+
+
+

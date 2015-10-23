@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+body{
+font-size:100%;
+font-family:Arial;
+}
+
+section,header,nav{
+display:block;
+}
+
+#container{
+background-color:#777777;
+width:100%;
+border:solid .2em;
+margin:0 auto;
+height:50em;
+position:relative;
+overflow:hidden;
+}
+
+#main_head{
+float:left;
+width:100%;
+}
+
+nav{
+margin-top:3%;
+margin-left:80%;
+}
+
+nav ul li{
+display:inline;
+padding:.2em;
+
+}
+
+nav ul li a{
+font-size:90%;
+
+}
+
+
+.box{
+border:solid .2em;
+
+}
+
+#blue_block{
+background-color:#B1DEE3;
+width:50%;
+height:3em;
+float:left;
+margin-left:9%;
+border-bottom:solid .2em;
+border-left:solid .2em;
+border-right:solid .2em;
+}
+
+#formSubmit{
+margin-top:8.5%;
+margin-left:19%;
+width:100%;
+overflow:auto;
+}
+
+.block_1{
+float:left;
+width:100%;
+color:black;
+}
+
+.block_2{
+float:left;
+width:100%;
+margin-top:1.5em;
+color:black;
+}
+
+.block_3{
+float:left;
+width:100%;
+margin-top:1.5em;
+color:black;
+margin-bottom:2em;
+}
+
+.name{
+padding:0.9em;
+
+}
+
+table,th,td{
+border:solid black;
+border-collapse:collapse;
+padding:0.3em 2.9em;
+text-align:center;
+}
+table{
+
+
+}
+caption{
+background-color:blue;
+text-algin:left;
+
+}
+table th{
+background-color:#007AA6;
+
+}
+
+.button_block{
+margin-top:1.9em;
+float:left;
+margin-left:2em;
+padding:1.3em;
+
+}
+
+.button_block button{
+margin-top:.9em;
+float:left;
+margin-left:12em;
+padding:.3em;
+
+}
+
+#footer{
+background-color:#333333;
+width:80%;
+height:10%;
+}
+
+
+</style>
+
+
+<title>
+Web page
+</title>
+</head>
+<body>
+<div id="container">
+<header id="main_head">
+
+<div id="blue_block">
+
+
+</div>
+
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Refresh</a></li>
+<li><a href="#">Logout</a></li>
+</ul>
+
+</nav>
+
+
+</header>
+
+
+
+
+<form id="formSubmit" action="submit.jsp" style="color:white;">
+
+<div class="block_1">
+
+
+<label class="name">Batch No:</label><input type="text" name="bno" class="box" size="25">
+
+
+
+<label clas="name">Program:</label><select name="options">
+  <option value="volvo">OP1</option>
+  <option value="saab">OP2</option>
+  <option value="fiat">Op3</option>
+  <option value="audi">A</option>
+</select>
+
+
+
+<label class="name">Schedule:</label><input type="text" name="Schedule" class="box" size="15">
+
+
+
+<label class="name">Duration:</label><input type="text"  class="box" size="15">
+
+
+
+</div>
+
+<div class="block_2">
+
+<label class="name">Start date:</label><input type="text" class="box" size="25">
+
+<label class="name">Time:</label><input type="text" class="box" size="5"><input type="text" class="box" size="5"><label value="">diff</label>
+
+<label class="name">Comments:</label><input type="text" class="box" size="15">
+
+<label class="name">Status:</label><input type="text" class="box" size="15">
+
+</div>
+
+<div class="block_3">
+<label class="name">Transfer:</label><input type="text" class="box" size="25">
+<label class="name">Trainer Contact:</label><input type="text" size="35" class="box">
+</div>
+
+<table >
+ <caption >Student Information</caption> 
+ 
+ <tr>
+ <th colspan="10">
+ <input type="button" name="slno" value="Some Value" style="margin-right:5em;float:left;">
+ <input type="button" name="slno" value="Some V2" style="margin-right:5em;float:right;">
+ 
+ </th>
+ 
+
+	 
+ </tr>
+ 
+ <tr>
+    <th><input type="checkbox" name="slno" value="Bike"></th>
+    <th>1</th>
+    <th>1</th> 
+	<th>1</th>
+    <th>1</th>
+    <th>1</th> 
+	<th>1</th>
+    <th>1</th>
+    <th>1</th>
+    <th>1</th>
+    
+    	
+    
+  </tr>
+  
+  <tr>
+<td><input type="checkbox" name="slno" value="Bike"></td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>2</td>
+    <td>32</td>
+    <td>23</td>
+    <td>34</td>
+    <td>3</td>
+    <td>34</td>
+   
+     </tr>
+	 
+  <tr>
+<td><input type="checkbox" name="slno" value="Bike"></td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>32</td>
+    <td>23</td>
+    <td>34</td>
+    <td>3</td>
+    <td>34</td>
+ 
+    
+  </tr>
+  <tr>
+<td><input type="checkbox" name="slno" value="Bike"></td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>2</td>
+    <td>32</td>
+    <td>23</td>
+    <td>34</td>
+    <td>3</td>
+    <td>34</td>
+   
+    
+  </tr>
+  
+  
+  
+  
+</table>
+
+<div class="button_block">
+<button type="button">Maintain!</button>
+<button type="button">Update!</button>
+<button type="button">cancel!</button>
+
+
+</div>
+
+
+
+</form>
+<div id="footer">
+Logs:<label></label>
+
+User:<label></label>
+
+Last Login:<label></label>
+
+Transaction By:<label></label>
+
+
+Last Modified By:<label></label>
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

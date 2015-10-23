@@ -1,0 +1,85 @@
+*{
+	padding:0px;
+	margin:0px;
+	
+}
+body{
+	
+	
+}
+
+
+
+.pencil{
+
+	width:30px;
+	
+	
+}
+
+#cap_back{
+	background-color:#797979;
+	height:40px;
+	width:30px;
+	opacity:0.5;
+	border-top-left-radius:50px 30px;
+	border-top-right-radius:50px 30px;
+	background-image:linear-gradient(to right,#404041,#E7E7E8 ,#C1C2C4 50%  ,#9FA1A4 ,#58585A);
+	background-image:linear-gradient(to top,#404041,#E7E7E8 ,#C1C2C4 20%,#9FA1A4 ,#58585A);
+	
+	}
+	
+	#cap_connector{
+		background-color:#262626;
+	height:10px;
+	width:26px;
+	margin-left:2px ;
+	background-image:linear-gradient(to right,#404041,#777777,#404041);
+	
+		
+	}
+	#cap_connector_2{
+	background-color:#262626;
+	height:8px;
+	width:22px;
+	margin-left:4px ;
+	background-image:linear-gradient(to right,#404041,#777777,#404041);
+		
+	}
+
+	#main_body{
+	background-color:#C1C2C4;
+	height:308px;
+	width:100%;
+	background-image:linear-gradient(to right,#404041,#FFFFFF,#404041);
+}
+
+#logo{
+	background-color:#000000;
+	margin-top:80px;
+	color:brown;
+	
+}
+	#bottom{
+	background-color:#262626;
+	height:70px;
+	width:100%;
+	border-bottom-left-radius:33px 150px;
+	border-bottom-right-radius:33px 150px;
+	background-image:linear-gradient(to right,#404041,#777777,#404041);	
+		
+	}
+	
+	#lead_grip{
+	background-image:linear-gradient(to right,#E5E5E5,#777777 1%,#E5E5E5,#E5E5E5,#E5E5E5,#777777);
+	height:12px;
+	margin-left:12.5px;
+	width:5px;
+}
+
+	#lead{
+	background-image:linear-gradient(to right,#E5E5E5,#777777,#E5E5E5);
+	height:12px;
+	margin-left:12.5px;
+	width:5px;
+}

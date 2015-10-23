@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box; }
+
+  nav, section, header, footer, article {
+    display: block; }
+
+  body {
+    background-color: #F1F2ED;
+    font-family: Helvetica Neue,ΓÇïArial,ΓÇïsans-serif;
+    font-size: 62.5%;
+    background-color: #F1F2ED; }
+    body #container {
+      position: relative;
+      width: 100%; }
+      body #container header {
+        float: left;
+        width: 100%;
+        position: absolute; }
+        body #container header nav ul li {
+          display: inline; } }
+
+/*# sourceMappingURL=mystyle.css.map */

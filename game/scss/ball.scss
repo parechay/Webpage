@@ -1,0 +1,60 @@
+*{
+	  margin:0px;
+	  padding:0px;
+	  box-sizing: border-box;
+
+}
+
+body{
+		
+		font-size:100%;
+}
+	
+#container{
+		
+		top:2%;
+		float:left;
+		margin-left:2%;
+		border:solid black 2px;
+		position:relative;
+		width:80%;
+		height:80%;
+		overflow:hidden;
+		
+	#ballholder{
+			position:relative;
+			margin:0px;
+			padding:0px;
+			float:left;
+	 				#myImage{
+					position:relative;
+					height:13%;
+					width:10%;
+					margin:0px;
+					padding:0px;
+					float:left;
+			}
+
+
+}
+
+	#boardHolder{
+	position:relative;
+	top:77%;
+
+		#board{
+			background-color:#333333;
+			border:solid .3em silver;
+			border-radius:5em;
+			left:0em;
+			height:10%;
+			width:20%;
+			position:relative;
+			padding:1.5%;
+			text-align:center;
+			color:white;
+			font-weight:600;
+		}
+
+}
+}

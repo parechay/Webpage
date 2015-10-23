@@ -1,0 +1,77 @@
+$font-family:Calibra,Arial;
+$fsize:18px;
+$color:blue;
+$bgcolor:#A0A2A4;
+$cont_width:75%;
+$block:block;
+$border:solid 3px green;
+$pad_a:10px 16px;
+
+*{
+margin:0px;
+font-size:$fsize;
+padding:0px;
+}
+
+body{
+background-color:$bgcolor;
+}
+
+#container{
+width:$cont_width;
+margin:0 auto;
+   
+}
+
+header,nav,section{
+display:$block;
+}
+
+/*
+nav{
+color:$color;
+ul{
+
+
+li{
+display:inline;
+
+a{
+text-decoration:none;
+margin:12px;
+
+}
+}
+
+}
+
+
+}
+
+*/
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { 
+  display:inline;
+  }
+
+  a {
+    display: block;
+    padding: $pad_a;
+    text-decoration: none;
+	display:inline;
+	border:$border;
+  }
+
+  a:hover{
+
+  color:green;
+  padding:pad_a;
+
+  }
+}	

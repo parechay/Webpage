@@ -1,0 +1,98 @@
+#container{
+background-color:#5C6B81;
+	width:280px;
+	height:480px;
+	margin:150px;
+	border-radius: 3em;
+	border:10px solid #494949;
+	
+	
+}
+
+
+#head_sec{
+	background-color:#5C6B81;
+	border-radius: 2em;
+}
+
+#speaker{
+	position:absolute;
+	background-color:#EAEAEA;
+	border-radius:3px;
+	margin-left:110px;
+	margin-top:22px;
+	height:10px;
+	width:55px;
+background-image:linear-gradient(to top,#5E5E5E,#BFBFBF,#EAEAEA,#E9E9E9);
+	}
+
+#speaker .dots{
+	float:left;
+	margin-left:1.5px;
+	margin-top:4.0px;
+	background-color:black;
+	border-radius:0.75px;
+	height:1.2px;
+	width:1.2px;
+	
+}
+
+#sensors{
+	position:absolute;
+	margin-left:180px;
+	margin-top:33px;
+}
+
+#sensors .dots{
+	float:left;
+	margin-left:5px;
+	background-color:#0B0B13;
+	border-radius:2.75px;
+	height:5.2px;
+	width:5.2px;
+}
+
+#camera{
+	position:absolute;
+	margin-left:220px;
+	margin-top:31px;
+	border:4px solid #DADADA;
+	height:5px;
+	border-radius:20px;
+	background-image:liner-gradient(to top,3B3B3B 10%,F2F3F5 100%,3B3B3B 20%);
+}
+
+
+#camera .dots{
+	float:left;
+	margin-left:5px;
+	background-color:#0B0B13;
+}
+
+
+#sam_tag{
+padding-top:40px;
+margin-left:95px;
+color:#DADADA;
+font-size:16px;
+font-weight:700;
+font-family:arial;
+}
+
+#main_screen{
+	height:360px;
+	width:250px;
+	background-color:#0B0B13;
+	margin:0 auto;
+	background-image:liner-gradient(to top,#898B8E 100%);
+	border-radius:3px;
+}
+
+#main_button{
+	border:3px solid #DADADA;
+	margin:20px auto;
+	height:10px;
+	width:60px;
+	border-radius:5px 5px 12px 12px;
+	background-image:linear-gradient(to top,#5E5E5E 30%,#434343 20%,#252525 50%,#E9E9E9 100%);
+}

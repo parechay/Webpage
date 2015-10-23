@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <style>
+  hi hi2 hi3{
+  border:2px solid;
+  
+  }
+  
+  </style>
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+ 
+   
+  
+
+
+<div class="container">
+
+<!--Button group-->
+
+<nav class="navbar">
+<div class="btn-group btn-group-lg">
+<button type="button" class="btn btn-info" value="Home">Home</button>
+<button type="button" class="btn btn-info">About Us</button>
+<button type="button" class="btn btn-info">Products</button>
+<button type="button" class="btn btn-info">Contact Us</button>
+</div>
+</nav>
+
+<nav class="navbar">
+<div class="btn-group-vertical ">
+<button type="button" class="btn btn-success active" value="Home">Home</button>
+<button type="button" class="btn btn-info">About Us</button>
+<button type="button" class="btn btn-info">Products</button>
+<button type="button" class="btn btn-info">Contact Us</button>
+</div>
+</nav>
+
+
+
+<!--Button-->
+<a href="#" class="btn btn-primary">Home-Default</a>
+<a href="#" class="btn btn-info btn-lg">Home-Info</a>
+<a href="#" class="btn btn-success btn-lg">Home-Info</a>
+<a href="#" class="btn btn-danger btn-lg">Home-Info</a>
+<a href="#" class="btn btn-warning btn-lg active">Home-Info</a>
+<a href="#" class="btn btn-warning btn-lg disabled">Home-Info</a>
+<a href="#" class="btn btn-default btn-lg active">Home-Info</a>
+
+<!--Glyphicons-->
+
+<h2>Glyphicon Examples</h2>
+  <p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>    
+  <p>Envelope icon as a link:
+    <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+  </p>
+  <p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+  <p>Search icon on a button:
+    <button type="button" class="btn btn-default">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+  </p>
+  <p>Search icon on a styled button:
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+  </p>
+  <p>Print icon: <span class="glyphicon glyphicon-print"></span></p>      
+  <p>Print icon on a styled link button:
+    <a href="#" class="btn btn-success btn-lg">
+      <span class="glyphicon glyphicon-print"></span> Print 
+    </a>
+  </p> 
+
+
+
+
+
+
+<!--Alerts-->
+
+<div class="alert alert-success">
+<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+<p><strong>Success!</strong>This is alert</p>
+</div>
+<div class="alert alert-warning">
+<a href="#" class="close" data-dismiss="alert" >&times;</a>
+<p><strong>Warning!</strong>This is alert</p>
+</div>
+<div class="alert alert-info">
+<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+<p><strong>Info!</strong>This is alert</p>
+</div>
+<div class="alert alert-danger fade in">
+<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+<p><strong>Danger!</strong>This is alert</p>
+</div>
+
+
+
+
+ <!--Jumbotron-->
+  
+<div class="page-header">
+<h2 class="well">This is page-header with well noraml which is default normal class</h2>
+<h2 class="well well-sm">This is well class with page header with small class</h2>
+<h2 class="well well-lg">This is page-header class</h2>
+</div>
+<div class="jumbotron"  >
+
+<div class="page-header">
+<h2>This is Jumbotron</h2>
+</div>
+
+<p>Hi</p>
+
+</div>
+
+
+  <!--table-->
+  <!-- types of table 
+  a) table 
+  table-bordered 
+  table-striped 
+  table-condensed 
+  table-hover
+  
+  
+  
+  -->
+   <table class="table table-condensed " >
+   <tr >
+   <th>Name</th>
+   <th>Age</th>
+   </tr>
+   
+   <tr>
+   <td>ram</td>
+   <td>24</td>
+   </tr>
+   
+   
+   <tr>
+   <td>pare</td>
+   <td>24</td>
+   </tr>
+      </table>
+	  
+	  <!--Grid classes-->
+	  
+  <div class="row"           >
+  <div class="col-lg-2 hi" style="border:solid 2px">Hi</div>
+  <div class="col-lg-6 hi2" style="border:solid 2px">Hi2</div>
+  <div class="col-lg-4 hi3" style="border:solid 2px">Hi3</div>
+  </div>
+  
+<!--Highlight with the mark-->
+
+<h1><mark>Hightight this text with Mark tag</mark></h1>
+
+<!--Quote-->
+<h3>blockquote with footer is used</h3>
+ 
+ <blockquote>
+  
+You cannot believe in God until you believe in yourself.
+  <footer>
+  
+  
+ Swami Vivekananda
+  </footer>
+
+  
+  <!--Code using to display-->
+  
+   
+  </blockquote>
+ 
+ <!--text type with color
+ .text-muted:grey;
+ .text-primary:blue;
+ .text-info:light blue;
+ .text-danger:red;
+ .text-warning:#a1783b;
+ .text-success:green;
+ 
+ -->
+ 
+ 
+ <p class="text-warning">Use<code>Thread</code>class to create the <code>Thread</code></p>
+ <!--text type with color
+ .bg-muted:grey;
+ .bg-primary:blue;
+ .bg-info:light blue;
+ .bg-danger:red;
+ .bg-warning:#a1783b;
+ .bg-success:green;
+ 
+ -->
+ 
+ <p class="bg-info">Hi please use <kbd>Ctrl+Alt+Del</kbd> to get the tast manager.</p>
+ 
+ <!-- pre tag-->
+ <pre>
+ 
+ hi 
+ how
+  are you
+  </pre>
+ 
+ 
+ <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl> 
+  
+  <!--Images-->
+  <!--img-circle-->
+  <!--img-rounded-->
+  <img src="guru.jpg" class="img-thumbnail">
+  
+ 
+  
+  
+</div>
+
+</body>
+</html>

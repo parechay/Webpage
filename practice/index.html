@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+
+<body >
+<div id="container">
+<header>
+<div id="logo">
+
+
+</div>
+<nav>
+
+
+</nav>
+</header>
+
+<!--Soldier Modification-->
+
+<!--
+<section>
+<header>
+<h2>Our Great Heroes</h2>
+</header>
+<select id="soldier" onfocus="this.oldvalue = this.value;"
+onchange="changeSrc(this);this.oldvalue = this.value;">
+<option value="Abdul-Hamid">Abdul-Hamid</option>
+<option value="Abhey-Ram">Abhey-Ram</option>
+<option value="Albert_Ekka">Albert_Ekka</option>
+<option value="Arun_Khetarpal">Arun_Khetarpal</option>
+<option value="Captain_Gurbachan_Singh_Salaria">Captain_Gurbachan_Singh_Salaria</option>
+<option value="JaduNathSingh">JaduNathSingh</option>
+<option value="ManojKumarPandey" selected>ManojKumarPandey</option>
+<option value="Nb_Sub_Chuni_Lal_AC_VrC_SM">Nb_Sub_Chuni_Lal_AC_VrC_SM</option>
+<option value="Piru_Singh_Shekhawat">Piru_Singh_Shekhawat</option>
+<option value="Sub-Kanshi-Ram">Sub-Kanshi-Ram</option>
+<option value="Yadav">Yadav</option>
+</select>
+<br />
+<br />
+<div>
+<img src="images/ManojKumarPandey.jpg" width="300px" height="300px" id="imgSrc">
+
+<p id="ManojKumarPandey">
+ManojKumarPandey
+</p>
+
+<p id="Abhey-Ram" hidden>
+Abhey-Ram
+</p>
+
+<p id="Abdul-Hamid" hidden>
+Abdul-Hamid
+</p>
+
+<p id="Albert_Ekka" hidden>
+Albert_Ekka
+</p>
+
+<p id="Arun_Khetarpal" hidden>
+Arun_Khetarpal
+</p>
+
+<p id="Captain_Gurbachan_Singh_Salaria" hidden>
+Captain_Gurbachan_Singh_Salaria
+</p>
+
+<p id="JaduNathSingh" hidden>
+JaduNathSingh
+</p>
+
+<p id="Nb_Sub_Chuni_Lal_AC_VrC_SM" hidden>
+Nb_Sub_Chuni_Lal_AC_VrC_SM
+</p>
+
+<p id="Piru_Singh_Shekhawat" hidden>
+Piru_Singh_Shekhawat
+</p>
+
+<p id="Sub-Kanshi-Ram" hidden>
+Sub-Kanshi-Ram
+</p>
+
+<p id="Yadav" hidden>
+Yadav
+</p>
+
+
+
+
+</div>
+
+
+
+</section>
+-->
+<!-- Construct Triangle-->
+
+<!--
+<section>
+<h2>Construct Triangle</h2>
+<input type="number" min="1" max="20" class="ifield" id="s1">
+<input type="number" min="1" max="20" class="ifield" id="s2">
+<input type="number" min="1" max="20" class="ifield" id="s3">
+<input type="submit" value="Construct Triangle" onclick="constructTraingle()">
+<canvas id="triangle" height="400px" width="400px" style="border:solid 2px;">
+
+
+
+
+</canvas>
+</section>
+-->
+<!--
+<section>
+<h2>Measure Distance Between Hearts</h2>
+<input type="text" class="namefield" id="n1">
+<input type="text" class="namefield" id="n2">
+<input type="submit" value="Love Meter" onclick="measureLove()">
+<canvas id="love" height="400px" width="400px" style="border:solid 2px;">
+
+
+
+
+</canvas>
+</section>
+-->
+<input type="number" id="num">
+<p id="demo">Hey</p>
+</div>
+<script>
+/*Exercise one Date display*/
+
+var input=[1,2,3,4,5,6,7,8,9];
+function binarySearch(){
+var guess=docment.getElementById("num").value;
+for(var i=0;i<input.length;i++){
+if(){
+
+}
+}
+
+
+}
+
+
+
+/*Measure Love...Love meter*/
+/*Incomplete code
+function measureLove(){
+var n1=document.getElementById("n1").value;
+var n2=document.getElementById("n2").value;
+var p1=(Math.random()*n1.length);
+var p2=(Math.random()*n2.length);
+var love;
+var canvas=document.getElementById("love");
+var ctx=canvas.getContext("2d");
+
+ctx.arc(10,20,10,10,200,100);
+ctx.stroke();
+str.strokeWeight(5);
+if(p1>p2){
+love=(p2/p1)*100+"%";
+alert(love);
+}
+else{
+love=(p1/p2)*100+"%";
+alert(love);
+}
+
+}
+draw();
+function draw() {
+  var canvas = document.getElementById('love');
+  if (canvas.getContext){
+    var ctx = canvas.getContext('2d');
+
+    // Quadratric curves example
+    var path = new Path2D();
+    path.moveTo(100,100);
+    path.quadraticCurveTo(0,0,20,20);
+	ctx.fillRect(20,20,5,5);
+	ctx.fillRect(100,100,5,5);
+	ctx.stroke(path);
+  }
+}
+*/
+
+/*Add the numbers in array*/
+/*
+addArray();
+function addArray(){
+var a=[1,2,3,4],sum=0;
+for(var i=0;i<a.length;i++){
+sum+=a[i];
+
+}
+document.getElementById("demo").innerHTML=sum;
+}
+
+*/
+
+
+
+
+
+
+
+
+/*To change the content of the soldier  */
+/*
+function changeSrc(soldier){
+var sname= soldier.value;
+var oldname=soldier.oldvalue;
+var src=document.getElementById("imgSrc");
+
+switch (sname){
+case "Abdul-Hamid":changeMe(sname,oldname);
+break;
+case "Abhey-Ram":changeMe(sname,oldname);
+break;
+case "Albert_Ekka":changeMe(sname,oldname);
+break;
+case "Arun_Khetarpal":changeMe(sname,oldname);
+break;
+case "Captain_Gurbachan_Singh_Salaria":changeMe(sname,oldname);
+break;
+case "JaduNathSingh":changeMe(sname,oldname);
+break;
+case "ManojKumarPandey":changeMe(sname,oldname);
+break;
+case "Nb_Sub_Chuni_Lal_AC_VrC_SM":changeMe(sname,oldname);
+break;
+case "Piru_Singh_Shekhawat":changeMe(sname,oldname);
+break;
+case "Sub-Kanshi-Ram":changeMe(sname,oldname);
+break;
+case "Yadav":changeMe(sname,oldname);
+break;
+default:alert("file missing");
+}
+
+function changeMe(name,oname){
+src.setAttribute("src","images/"+name+".jpg");
+document.getElementById(oname).style.display="none";
+document.getElementById(name).style.display="block";
+}
+}
+*/
+
+/*Draw a triangle*/
+
+/*
+function constructTraingle(){
+var s1=parseInt(document.getElementById("s1").value);
+var s2=parseInt(document.getElementById("s2").value);
+var s3=parseInt(document.getElementById("s3").value);
+if(((s2+s3)>s1) && ((s1+s3)>s2) && ((s1+s2)>s3)){
+
+	 if (s1 > s2) {
+			if(s1>s3){
+					L=s1;
+					
+					}
+			else{
+					L=s3;
+					}
+			}
+			else{
+					
+				if(s2>s3){
+					L=s2;
+					
+					}
+			else{
+					L=s3;
+			}
+		}
+var x=0,y=380,scale=30;
+var p=((s1+s2+s3)/2);
+var Area=Math.sqrt(p*(p-s1)*(p-s2)*(p-s3));	
+var height=(Area/(0.5*L))*scale;
+var mpoint=(L/2)*scale;
+var canvas = document.getElementById('triangle');
+		if (canvas.getContext){
+			var ctx = canvas.getContext('2d');
+			var path=new Path2D();
+			ctx.clearRect(0,0,400,400);
+			path.moveTo(x,y);
+			path.lineTo((L*scale),y);
+			path.lineTo(mpoint,y-height);
+			ctx.fill(path);
+			ctx.stroke();
+		  }
+	}
+else{
+alert("Sorry can't construct");
+
+}
+}
+
+*/
+
+
+
+</script>
+
+</body>
+</html>

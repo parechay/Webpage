@@ -1,0 +1,65 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url("../fonts/LimeGloryCaps.ttf"); }
+.noMgPdg, body {
+  margin: 0em;
+  padding: 0em; }
+
+.pickPaper, body #container #pick #player1, body #container #pick #player2, body #container #pick #player3, body #container #pick #player4, body #container #pick #player5 {
+  height: 33%;
+  width: 30%;
+  text-align: center;
+  padding-top: 4.5em;
+  float: left;
+  position: absolute;
+  left: 35.3%;
+  border: solid 0.1em;
+  top: 33.5%; }
+
+.hidden {
+  font-family: myFirstFont;
+  font-size: 2em;
+  color: #ffffff;
+  font-style: italic;
+  opacity: 0.9; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-size: 100%; }
+  body #container {
+    width: 75%;
+    margin: 0 auto;
+    height: 630px;
+    background: url(../images/bgimage.jpg);
+    border: solid 0.2em;
+    position: relative; }
+    body #container #pick {
+      border: solid 0.1em;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      margin: 0 auto;
+      border-radius: 999em; }
+      body #container #pick #player1 {
+        background-color: #ECB003;
+        top: 0.5%; }
+        body #container #pick #player1 span {
+          color: #ffffff;
+          opacity: 0.9; }
+      body #container #pick #player2 {
+        background-color: #E4007D;
+        left: 5.3%; }
+      body #container #pick #player3 {
+        background-color: #ffffff; }
+        body #container #pick #player3 span {
+          color: #000000; }
+      body #container #pick #player4 {
+        background-color: #C2191C;
+        left: 65.3%; }
+      body #container #pick #player5 {
+        background-color: #EF9444;
+        top: 66.5%; }
+
+/*# sourceMappingURL=style.css.map */
